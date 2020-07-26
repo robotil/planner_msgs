@@ -1,0 +1,101 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:srv/CheckLOS.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_opensplice/Point_.idl"
+
+#ifndef __planner_msgs__srv__check_los__idl__
+#define __planner_msgs__srv__check_los__idl__
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CheckLOS_Request_ {
+geometry_msgs::msg::dds_::Point_ one_;
+geometry_msgs::msg::dds_::Point_ two_;
+
+};
+
+#pragma keylist CheckLOS_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CheckLOS_Response_ {
+boolean is_los_;
+
+};
+
+#pragma keylist CheckLOS_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+struct Sample_CheckLOS_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+planner_msgs::srv::dds_::CheckLOS_Request_ request_;
+
+};
+
+#pragma keylist Sample_CheckLOS_Request_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module planner_msgs {
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+struct Sample_CheckLOS_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+planner_msgs::srv::dds_::CheckLOS_Response_ response_;
+
+};
+
+#pragma keylist Sample_CheckLOS_Response_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module planner_msgs {
+
+
+#endif  // __planner_msgs__srv__check_los__idl__

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from planner_msgs/msg/EnnemyReport.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module planner_msgs {
+  module msg {
+    struct EnnemyReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Error in meters")
+      uint32 cep;
+
+      @verbatim (language="comment", text=
+        " GlobalPosition")
+      geometry_msgs::msg::Point gpose;
+
+      @verbatim (language="comment", text=
+        "Priority 1-5")
+      uint8 priority;
+
+      @verbatim (language="comment", text=
+        "Class - human, vehicle, airplatform")
+      string tclass;
+
+      @verbatim (language="comment", text=
+        " Dead or alive")
+      boolean is_alive;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:msg/SImu.idl
+// generated code does not contain a copyright notice
+#include "sensor_msgs/msg/dds_connext/Imu_.idl"
+
+#ifndef __planner_msgs__msg__s_imu__idl__
+#define __planner_msgs__msg__s_imu__idl__
+
+
+module planner_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct SImu_ {
+sensor_msgs::msg::dds_::Imu_ imu_;
+unsigned long id_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__msg__s_imu__idl__

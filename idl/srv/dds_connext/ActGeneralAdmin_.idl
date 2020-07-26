@@ -1,0 +1,55 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:srv/ActGeneralAdmin.idl
+// generated code does not contain a copyright notice
+
+#ifndef __planner_msgs__srv__act_general_admin__idl__
+#define __planner_msgs__srv__act_general_admin__idl__
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+module ActGeneralAdmin_Request_Constants {
+const octet STOP_ = 0;
+const octet START_ = 1;
+const octet PAUSE_ = 2;
+
+};
+
+struct ActGeneralAdmin_Request_ {
+octet admin_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct ActGeneralAdmin_Response_ {
+octet resulting_status_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__srv__act_general_admin__idl__

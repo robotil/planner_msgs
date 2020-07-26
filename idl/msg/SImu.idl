@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from planner_msgs/msg/SImu.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Imu.idl"
+
+module planner_msgs {
+  module msg {
+    struct SImu {
+      sensor_msgs::msg::Imu imu;
+
+      uint32 id;
+    };
+  };
+};

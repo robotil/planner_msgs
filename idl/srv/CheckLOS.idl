@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from planner_msgs/srv/CheckLOS.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module planner_msgs {
+  module srv {
+    struct CheckLOS_Request {
+      geometry_msgs::msg::Point one;
+
+      geometry_msgs::msg::Point two;
+    };
+    struct CheckLOS_Response {
+      boolean is_los;
+    };
+  };
+};

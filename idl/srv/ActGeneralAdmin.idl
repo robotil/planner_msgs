@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from planner_msgs/srv/ActGeneralAdmin.srv
+// generated code does not contain a copyright notice
+
+
+module planner_msgs {
+  module srv {
+    module ActGeneralAdmin_Request_Constants {
+      const octet STOP = 0;
+      const octet START = 1;
+      const octet PAUSE = 2;
+    };
+    @verbatim (language="comment", text=
+      " Possible commands." "\n"
+      " Those commands refer to the simulation only")
+    struct ActGeneralAdmin_Request {
+      octet admin;
+    };
+    struct ActGeneralAdmin_Response {
+      octet resulting_status;
+    };
+  };
+};

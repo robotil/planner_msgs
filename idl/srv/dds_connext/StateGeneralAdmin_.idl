@@ -1,0 +1,49 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:srv/StateGeneralAdmin.idl
+// generated code does not contain a copyright notice
+
+#ifndef __planner_msgs__srv__state_general_admin__idl__
+#define __planner_msgs__srv__state_general_admin__idl__
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct StateGeneralAdmin_Request_ {
+octet structure_needs_at_least_one_member_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct StateGeneralAdmin_Response_ {
+octet resulting_status_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__srv__state_general_admin__idl__

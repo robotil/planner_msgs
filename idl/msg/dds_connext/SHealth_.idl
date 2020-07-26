@@ -1,0 +1,32 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:msg/SHealth.idl
+// generated code does not contain a copyright notice
+#include "diagnostic_msgs/msg/dds_connext/KeyValue_.idl"
+
+#ifndef __planner_msgs__msg__s_health__idl__
+#define __planner_msgs__msg__s_health__idl__
+
+
+module planner_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct SHealth_ {
+sequence<diagnostic_msgs::msg::dds_::KeyValue_> values_;
+
+unsigned long id_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__msg__s_health__idl__

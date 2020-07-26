@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from planner_msgs/msg/SGlobalPose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PointStamped.idl"
+
+module planner_msgs {
+  module msg {
+    struct SGlobalPose {
+      geometry_msgs::msg::PointStamped gpose;
+
+      uint32 id;
+    };
+  };
+};
