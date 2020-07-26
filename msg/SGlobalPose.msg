@@ -1,0 +1,2 @@
+geometry_msgs/PointStamped gpose
+uint32 id

@@ -1,0 +1,3 @@
+---
+byte resulting_status
+#return STOP, PAUSE, RUN

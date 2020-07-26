@@ -1,0 +1,8 @@
+# Possible commands.
+# Those commands refer to the simulation only
+byte STOP=0
+byte START=1
+byte PAUSE=2
+byte admin
+---
+byte resulting_status

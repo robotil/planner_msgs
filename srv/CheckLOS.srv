@@ -1,0 +1,5 @@
+geometry_msgs/Point one
+geometry_msgs/Point two
+---
+bool is_los
+# true = is in LOS
