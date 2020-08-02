@@ -9,7 +9,7 @@ module planner_msgs {
     struct SGlobalPose {
       geometry_msgs::msg::PointStamped gpose;
 
-      uint32 id;
+      string id;
     };
   };
 };

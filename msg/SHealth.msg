@@ -3,4 +3,4 @@ diagnostic_msgs/KeyValue[] values
 # key battery=%
 # key health=%
 # key state = TBD
-uint32 id
+string id

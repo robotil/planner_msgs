@@ -14,7 +14,7 @@ module planner_msgs {
         " key battery=%" "\n"
         " key health=%" "\n"
         " key state = TBD")
-      uint32 id;
+      string id;
     };
   };
 };

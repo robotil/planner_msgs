@@ -18,4 +18,4 @@
 #diagnostic_msgs/KeyValue[] values
 
 diagnostic_msgs/DiagnosticStatus diagstatus
-uint32 id
+string id

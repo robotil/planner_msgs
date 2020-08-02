@@ -16,7 +16,7 @@ module dds_ {
 
 struct SImu_ {
 sensor_msgs::msg::dds_::Imu_ imu_;
-unsigned long id_;
+string id_;
 
 };
 

@@ -9,4 +9,4 @@ uint8 priority
 string tclass
 # Dead or alive
 bool is_alive
-uint32 id
+string id

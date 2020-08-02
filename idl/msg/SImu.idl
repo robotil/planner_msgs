@@ -9,7 +9,7 @@ module planner_msgs {
     struct SImu {
       sensor_msgs::msg::Imu imu;
 
-      uint32 id;
+      string id;
     };
   };
 };

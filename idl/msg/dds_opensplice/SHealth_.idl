@@ -17,7 +17,7 @@ module dds_ {
 struct SHealth_ {
 sequence<diagnostic_msgs::msg::dds_::KeyValue_> values_;
 
-unsigned long id_;
+string id_;
 
 };
 

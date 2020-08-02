@@ -28,7 +28,7 @@ set(msg_files
   "msg/SGlobalPose.msg"
   "msg/SImu.msg"
   "msg/SHealth.msg"
-  "msg/EnnemyReport.msg"
+  "msg/EnemyReport.msg"
 )
 set(srv_files
    "srv/ActGeneralAdmin.srv"

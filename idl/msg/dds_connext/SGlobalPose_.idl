@@ -16,7 +16,7 @@ module dds_ {
 
 struct SGlobalPose_ {
 geometry_msgs::msg::dds_::PointStamped_ gpose_;
-unsigned long id_;
+string id_;
 
 };
 

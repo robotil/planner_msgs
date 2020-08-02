@@ -27,7 +27,7 @@ module planner_msgs {
         "diagnostic_msgs/KeyValue[] values")
       diagnostic_msgs::msg::DiagnosticStatus diagstatus;
 
-      uint32 id;
+      string id;
     };
   };
 };

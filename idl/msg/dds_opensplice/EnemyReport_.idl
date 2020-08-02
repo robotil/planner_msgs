@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:msg/EnemyReport.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_opensplice/Point_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+#ifndef __planner_msgs__msg__enemy_report__idl__
+#define __planner_msgs__msg__enemy_report__idl__
+
+
+module planner_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct EnemyReport_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned long cep_;
+geometry_msgs::msg::dds_::Point_ gpose_;
+octet priority_;
+string tclass_;
+boolean is_alive_;
+string id_;
+
+};
+
+#pragma keylist EnemyReport_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__msg__enemy_report__idl__
