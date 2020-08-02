@@ -2,38 +2,31 @@
 // with input from planner_msgs/msg/SDiagnosticStatus.msg
 // generated code does not contain a copyright notice
 
+#include "diagnostic_msgs/msg/DiagnosticStatus.idl"
 
 module planner_msgs {
   module msg {
-    module SDiagnosticStatus_Constants {
-      const octet OK = 0;
-      const octet WARN = 1;
-      const octet ERROR = 2;
-      const octet STALE = 3;
-    };
     @verbatim (language="comment", text=
-      " This message holds the status of an individual component of the robot.")
+      "# This message holds the status of an individual component of the robot.")
     struct SDiagnosticStatus {
       @verbatim (language="comment", text=
-        " Level of operation enumerated above.")
-      octet level;
+        "# Possible levels of operations." "\n"
+        "byte WARN=1" "\n"
+        "byte ERROR=2" "\n"
+        "byte OK=0" "\n"
+        "byte STALE=3" "\n"
+        "# Level of operation enumerated above." "\n"
+        "byte level" "\n"
+        "# A description of the test/component reporting." "\n"
+        "string name" "\n"
+        "# A description of the status." "\n"
+        "string message" "\n"
+        "# A hardware unique string." "\n"
+        "string hardware_id" "\n"
+        "# An array of values associated with the status." "\n"
+        "diagnostic_msgs/KeyValue[] values")
+      diagnostic_msgs::msg::DiagnosticStatus diagstatus;
 
-      @verbatim (language="comment", text=
-        " A description of the test/component reporting.")
-      string name;
-
-      @verbatim (language="comment", text=
-        " A description of the status.")
-      string message;
-
-      @verbatim (language="comment", text=
-        " A hardware unique string.")
-      string hardware_id;
-
-      @verbatim (language="comment", text=
-        " An array of values associated with the status." "\n"
-        "KeyValue[] values" "\n"
-        "diagnostics_msgs/DiagnosticStatus diagstatus")
       uint32 id;
     };
   };

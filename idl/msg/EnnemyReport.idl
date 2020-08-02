@@ -29,6 +29,8 @@ module planner_msgs {
       @verbatim (language="comment", text=
         " Dead or alive")
       boolean is_alive;
+
+      uint32 id;
     };
   };
 };

@@ -1,6 +1,7 @@
 // generated from rosidl_generator_dds_idl/resource/idl.idl.em
 // with input from planner_msgs:msg/SDiagnosticStatus.idl
 // generated code does not contain a copyright notice
+#include "diagnostic_msgs/msg/dds_connext/DiagnosticStatus_.idl"
 
 #ifndef __planner_msgs__msg__s_diagnostic_status__idl__
 #define __planner_msgs__msg__s_diagnostic_status__idl__
@@ -12,19 +13,9 @@ module msg {
 
 module dds_ {
 
-module SDiagnosticStatus_Constants {
-const octet OK_ = 0;
-const octet WARN_ = 1;
-const octet ERROR_ = 2;
-const octet STALE_ = 3;
-
-};
 
 struct SDiagnosticStatus_ {
-octet level_;
-string name_;
-string message_;
-string hardware_id_;
+diagnostic_msgs::msg::dds_::DiagnosticStatus_ diagstatus_;
 unsigned long id_;
 
 };
