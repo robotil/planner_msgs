@@ -1,0 +1,4 @@
+string entityid 
+geometry_msgs/Point target
+---
+planner_msgs/OPath[] path

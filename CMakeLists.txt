@@ -29,11 +29,14 @@ set(msg_files
   "msg/SImu.msg"
   "msg/SHealth.msg"
   "msg/EnemyReport.msg"
+  "msg/OPath.msg"
+  "msg/SPath.msg"
 )
 set(srv_files
    "srv/ActGeneralAdmin.srv"
    "srv/StateGeneralAdmin.srv"
    "srv/CheckLOS.srv"
+   "srv/AllPathEntityToTarget.srv"
 #   "srv/SelfTest.srv"
 )
 

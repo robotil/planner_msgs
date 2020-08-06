@@ -8,7 +8,7 @@ Clone the repository in the ros2 workspace:
 
 ```git clone  https://github.com/robotil/planner_msgs.git```
 
-```cd ..\ ```
+```cd ../ ```
 
 ```colcon build --packages-select planner_msgs ```
 
