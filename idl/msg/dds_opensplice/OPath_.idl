@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:msg/OPath.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_opensplice/Point_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+#ifndef __planner_msgs__msg__o_path__idl__
+#define __planner_msgs__msg__o_path__idl__
+
+
+module planner_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct OPath_ {
+std_msgs::msg::dds_::Header_ header_;
+sequence<geometry_msgs::msg::dds_::Point_> point_;
+
+string name_;
+
+};
+
+#pragma keylist OPath_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__msg__o_path__idl__

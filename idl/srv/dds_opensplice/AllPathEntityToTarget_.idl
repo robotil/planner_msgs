@@ -1,0 +1,103 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:srv/AllPathEntityToTarget.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_opensplice/Point_.idl"
+#include "planner_msgs/msg/dds_opensplice/OPath_.idl"
+
+#ifndef __planner_msgs__srv__all_path_entity_to_target__idl__
+#define __planner_msgs__srv__all_path_entity_to_target__idl__
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct AllPathEntityToTarget_Request_ {
+string entityid_;
+geometry_msgs::msg::dds_::Point_ target_;
+
+};
+
+#pragma keylist AllPathEntityToTarget_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct AllPathEntityToTarget_Response_ {
+sequence<planner_msgs::msg::dds_::OPath_> path_;
+
+
+};
+
+#pragma keylist AllPathEntityToTarget_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module planner_msgs
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+struct Sample_AllPathEntityToTarget_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+planner_msgs::srv::dds_::AllPathEntityToTarget_Request_ request_;
+
+};
+
+#pragma keylist Sample_AllPathEntityToTarget_Request_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module planner_msgs {
+
+
+module planner_msgs {
+
+module srv {
+
+module dds_ {
+
+struct Sample_AllPathEntityToTarget_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+planner_msgs::srv::dds_::AllPathEntityToTarget_Response_ response_;
+
+};
+
+#pragma keylist Sample_AllPathEntityToTarget_Response_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module planner_msgs {
+
+
+#endif  // __planner_msgs__srv__all_path_entity_to_target__idl__
