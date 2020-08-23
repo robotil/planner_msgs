@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:msg/SGoalAndPath.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Point_.idl"
+#include "planner_msgs/msg/dds_connext/OPath_.idl"
+
+#ifndef __planner_msgs__msg__s_goal_and_path__idl__
+#define __planner_msgs__msg__s_goal_and_path__idl__
+
+
+module planner_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct SGoalAndPath_ {
+sequence<geometry_msgs::msg::dds_::Point_> goal_;
+
+planner_msgs::msg::dds_::OPath_ path_;
+string id_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__msg__s_goal_and_path__idl__

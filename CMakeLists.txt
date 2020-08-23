@@ -31,6 +31,7 @@ set(msg_files
   "msg/EnemyReport.msg"
   "msg/OPath.msg"
   "msg/SPath.msg"
+  "msg/SGoalAndPath.msg"
 )
 set(srv_files
    "srv/ActGeneralAdmin.srv"
