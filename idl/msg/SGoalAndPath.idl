@@ -8,7 +8,7 @@
 module planner_msgs {
   module msg {
     struct SGoalAndPath {
-      sequence<geometry_msgs::msg::Point> goal;
+      geometry_msgs::msg::Point goal;
 
       planner_msgs::msg::OPath path;
 

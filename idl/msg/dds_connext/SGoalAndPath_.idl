@@ -16,8 +16,7 @@ module dds_ {
 
 
 struct SGoalAndPath_ {
-sequence<geometry_msgs::msg::dds_::Point_> goal_;
-
+geometry_msgs::msg::dds_::Point_ goal_;
 planner_msgs::msg::dds_::OPath_ path_;
 string id_;
 
