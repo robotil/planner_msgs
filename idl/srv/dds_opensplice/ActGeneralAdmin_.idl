@@ -16,6 +16,7 @@ module ActGeneralAdmin_Request_Constants {
 const octet STOP_ = 0;
 const octet START_ = 1;
 const octet PAUSE_ = 2;
+const octet PLAY_ = 3;
 
 };
 

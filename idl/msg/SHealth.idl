@@ -13,6 +13,7 @@ module planner_msgs {
         " key fuel=%" "\n"
         " key battery=%" "\n"
         " key health=%" "\n"
+        " key ammunition=%" "\n"
         " key state = TBD")
       string id;
     };

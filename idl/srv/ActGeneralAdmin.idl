@@ -9,6 +9,7 @@ module planner_msgs {
       const octet STOP = 0;
       const octet START = 1;
       const octet PAUSE = 2;
+      const octet PLAY = 3;
     };
     @verbatim (language="comment", text=
       " Possible commands." "\n"

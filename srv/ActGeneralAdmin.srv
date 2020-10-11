@@ -3,6 +3,7 @@
 byte STOP=0
 byte START=1
 byte PAUSE=2
+byte PLAY=3
 byte admin
 ---
 byte resulting_status

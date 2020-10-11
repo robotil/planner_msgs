@@ -1,0 +1,31 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from planner_msgs:msg/STwist.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Twist_.idl"
+
+#ifndef __planner_msgs__msg__s_twist__idl__
+#define __planner_msgs__msg__s_twist__idl__
+
+
+module planner_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct STwist_ {
+geometry_msgs::msg::dds_::Twist_ twist_;
+string id_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module planner_msgs
+
+
+#endif  // __planner_msgs__msg__s_twist__idl__

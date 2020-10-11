@@ -16,6 +16,7 @@ module dds_ {
 
 struct SDiagnosticStatus_ {
 diagnostic_msgs::msg::dds_::DiagnosticStatus_ diagstatus_;
+unsigned long type_;
 string id_;
 
 };
