@@ -1,10 +1,10 @@
 ## This message holds the status of an individual component of the robot.
 
 ## Possible levels of operations.
-#byte WARN=1
-#byte ERROR=2
-#byte OK=0
-#byte STALE=3
+#byte WARN=1 i.e, DtDamageSlight
+#byte ERROR=2 i.e, DtDamageDestroyed
+#byte OK=0  i.3, DtDamageNone
+#byte STALE=3 i.e, DtDamageModerate
 
 ## Level of operation enumerated above.
 #byte level

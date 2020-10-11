@@ -11,10 +11,10 @@ module planner_msgs {
     struct SDiagnosticStatus {
       @verbatim (language="comment", text=
         "# Possible levels of operations." "\n"
-        "byte WARN=1" "\n"
-        "byte ERROR=2" "\n"
-        "byte OK=0" "\n"
-        "byte STALE=3" "\n"
+        "byte WARN=1 i.e, DtDamageSlight" "\n"
+        "byte ERROR=2 i.e, DtDamageDestroyed" "\n"
+        "byte OK=0  i.3, DtDamageNone" "\n"
+        "byte STALE=3 i.e, DtDamageModerate" "\n"
         "# Level of operation enumerated above." "\n"
         "byte level" "\n"
         "# A description of the test/component reporting." "\n"
