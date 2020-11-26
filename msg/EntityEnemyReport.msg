@@ -1,0 +1,2 @@
+planner_msgs/EnemyReport enemy
+string id

@@ -33,6 +33,7 @@ set(msg_files
   "msg/SPath.msg"
   "msg/SGoalAndPath.msg"
   "msg/STwist.msg"
+  "msg/EntityEnemyReport.msg"
 )
 set(srv_files
    "srv/ActGeneralAdmin.srv"
